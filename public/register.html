@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Регистрация</h1>
+        <form id="registerForm">
+            <label for="login">Логин:</label>
+            <input type="text" id="login" required>
+            
+            <label for="password">Пароль:</label>
+            <div class="password-container">
+                <input type="password" id="password" required>
+                <span id="togglePassword" class="toggle-icon">👁️</span>
+            </div>
+            
+            <label for="confirmPassword">Подтвердите пароль:</label>
+            <div class="password-container">
+                <input type="password" id="confirmPassword" required>
+                <span id="toggleConfirmPassword" class="toggle-icon">👁️</span>
+            </div>
+            
+            <button type="button" id="generatePassword">Сгенерировать пароль</button>
+            
+            <label for="name">Имя:</label>
+            <input type="text" id="name" required>
+            
+            <label for="nickname">Никнейм:</label>
+            <input type="text" id=" " required>
+            
+            <label for="phone">Телефон:</label>
+            <input type="text" id="phone" required>
+            
+            <label for="gender">Пол:</label>
+            <select id="gender" required>
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select>
+            
+            <label for="avatar">Аватар:</label>
+            <input type="file" id="avatar">
+            
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <button onclick="location.href='login.html'">Перейти к входу</button>
+        <button onclick="location.href='index.html'">Перейти на главную</button>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

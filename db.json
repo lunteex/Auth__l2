@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "login": "123",
+      "password": "123",
+      "name": "Name",
+      "nickname": "Nickname",
+      "phone": "777777",
+      "gender": "male",
+      "registrationDate": "15.12.2024"
+    }
+  ]
+}
